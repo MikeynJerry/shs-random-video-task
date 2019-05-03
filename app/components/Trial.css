@@ -1,0 +1,127 @@
+.backButton {
+  position: absolute;
+  z-index: 100000000;
+}
+
+.forwardButton {
+  position: absolute;
+  z-index: 100000000;
+  right: 0;
+  top: 0;
+  color: white;
+}
+
+.btnGroup {
+  position: relative;
+  top: 500px;
+  width: 480px;
+  margin: 0 auto;
+}
+.noClick {
+  pointer-events: none;
+}
+
+.btn {
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.7;
+  cursor: pointer;
+  font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.transcription-on {
+  color: white;
+  position: absolute;
+  top: 425px;
+  left: calc(50vw - 250px);
+  width: 500px;
+  text-align: center;
+}
+
+.image-base {
+  transition: transform 0.2s ease-in-out;
+}
+
+.image-base:hover {
+  transform: scale(1.2);
+}
+
+.image-0 {
+  position: absolute;
+  width: 22vh;
+  height: 22vh;
+  left: calc(50vw - 22vh - 50px);
+  bottom: calc(50px + 22vh + 20px);
+}
+
+.image-1 {
+  position: absolute;
+  width: 22vh;
+  height: 22vh;
+  right: calc(50vw - 22vh - 50px);
+  bottom: calc(50px + 22vh + 20px);
+}
+
+.image-2 {
+  position: absolute;
+  width: 22vh;
+  height: 22vh;
+  left: calc(50vw - 22vh - 50px);
+  bottom: 20px;
+}
+
+.image-3 {
+  position: absolute;
+  width: 22vh;
+  height: 22vh;
+  right: calc(50vw - 22vh - 50px);
+  bottom: 20px;
+}
+
+.black-screen {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.red-border {
+  border: 10px solid red;
+}
+
+.green-border {
+  border: 10px solid green;
+  color: green;
+}
+
+.correct-border {
+  border: 10px solid green;
+  color: green;
+  animation: borderBlink ease-in-out 1s infinite;
+}
+
+@keyframes borderBlink {
+  from,
+  to {
+    border-color: green;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
