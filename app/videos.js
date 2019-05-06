@@ -1,10 +1,10 @@
-import ba_audio_vs from './assets/videos/Vocoded/ba_audio.mp4';
-import ba_con_vs from './assets/videos/Vocoded/ba_con.mp4';
-import ba_visual_vs from './assets/videos/Vocoded/ba_visual.mp4';
-import ga_audio_vs from './assets/videos/Vocoded/ga_audio.mp4';
-import ga_con_vs from './assets/videos/Vocoded/ga_con.mp4';
-import ga_visual_vs from './assets/videos/Vocoded/ga_visual.mp4';
-import incon_vs from './assets/videos/Vocoded/incon.mp4';
+import ba_audio_vs from './assets/videos/Vocoded/ba_audio_vs.mp4';
+import ba_con_vs from './assets/videos/Vocoded/ba_con_vs.mp4';
+import ba_visual_vs from './assets/videos/Vocoded/ba_visual_vs.mp4';
+import ga_audio_vs from './assets/videos/Vocoded/ga_audio_vs.mp4';
+import ga_con_vs from './assets/videos/Vocoded/ga_con_vs.mp4';
+import ga_visual_vs from './assets/videos/Vocoded/ga_visual_vs.mp4';
+import incon_vs from './assets/videos/Vocoded/incon_vs.mp4';
 
 import ba_audio_nvs from './assets/videos/NonVocoded/ba_audio.mp4';
 import ba_con_nvs from './assets/videos/NonVocoded/ba_con.mp4';
